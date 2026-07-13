@@ -1,6 +1,7 @@
 using UnityEngine;
 
-public class ISaveable
+public interface ISaveable
 {
-    
+    void Save();
+    void Load();
 }

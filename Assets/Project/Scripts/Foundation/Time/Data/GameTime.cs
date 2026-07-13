@@ -1,25 +1,14 @@
-using UnityEngine;
-using UnityEngine.SceneManagement;
-
-public class GameTime : MonoBehaviour
+[System.Serializable]
+public class GameTime
 {
-    private void Start()
-    {
-        InitializeFramework();
-        InitializeManagers();
-        LoadGameplay();
-    }
-
-    private void InitializeFramework()
-    {
-    }
-
-    private void InitializeManagers()
-    {
-    }
-
-    private void LoadGameplay()
-    {
-        SceneManager.LoadScene("Gameplay");
-    }
+    public int Minute;
+    public int Hour;
+    public int Day;
+    public int Week;
+    public int Month;
+    public int Year;
+    public int Decade;
+    public int Century;
+    public int Millennium;
+    public int Eon;
 }

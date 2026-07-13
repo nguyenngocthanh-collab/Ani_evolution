@@ -5,6 +5,7 @@ public class Bootstrapper : MonoBehaviour
 {
     private void Start()
     {
+        
         InitializeFramework();
         InitializeManagers();
         LoadGameplay();
@@ -22,6 +23,6 @@ public class Bootstrapper : MonoBehaviour
 
     private void LoadGameplay()
     {
-        SceneManager.LoadScene("Gameplay");
+        SceneManager.LoadScene("Gameplay_0");
     }
 }

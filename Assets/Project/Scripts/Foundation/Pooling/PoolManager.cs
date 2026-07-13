@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PoolManager
+public class PoolManager : MonoBehaviour
 {
     
 }

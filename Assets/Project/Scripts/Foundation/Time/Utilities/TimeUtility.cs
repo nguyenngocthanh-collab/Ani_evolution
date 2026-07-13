@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TimeUtility
+public static class TimeUtility
 {
     
 }
